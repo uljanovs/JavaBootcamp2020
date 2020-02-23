@@ -1,7 +1,7 @@
 package sef.module10.sample;
 //Needs to be completed
 //1 - extend from Thread class
-class MyThread {
+class MyThread extends Thread {
 	
 	int count;
 	MyThread(String s, int count) {
@@ -10,7 +10,7 @@ class MyThread {
 	}
 
 	//2 - Override run method
-	{
+	public void run() {
 		
 		for (int i = 0; i < count; i++) {
 			System.out.println("Thread Name  :"

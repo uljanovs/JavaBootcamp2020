@@ -1,5 +1,5 @@
 package sef.module13.sample;
-//Needs to be completed
+// Needs to be completed
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -18,7 +18,8 @@ public class InsertSample {
 			System.out.println("Connection successfully established!");
 			
 			//1 - Create a PreparedStatement with a query "insert into employee values(?,?,?,?)" 
-			PreparedStatement pStmt = ;
+			PreparedStatement pStmt 
+				= cn.prepareStatement("insert into employee VALUES (?,?,?,?)");
 			
 			//	Change parameter to any keyword desired, if a record
 			// 	matches the query then it will be displayed
@@ -28,7 +29,7 @@ public class InsertSample {
 			pStmt.setInt(4,7000);
 			
 			//2 - Execute this query using executeUpdate()
-			int rows = ;
+			int rows = pStmt.executeUpdate();
 			cn.commit();	
 			System.out.println(rows + " row(s) added!");
 			

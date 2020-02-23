@@ -1,5 +1,5 @@
 package sef.module12.sample;
-//Needs to be completed
+// Needs to be completed
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.InetAddress;
@@ -16,13 +16,13 @@ public class ServerSample {
 		
 		try {
 			//1 - Instantiate ServerSocket object and run it on port number 9999
-
+			server = new ServerSocket(9999);
 			System.out.println("ServerSocket created at " + InetAddress.getLocalHost());
 			
 			while(true){
 				System.out.println("Waiting for connection");
 				//2 - Wait for a client request
-
+				client = server.accept();
 				System.out.println("Got a connection from " + client.getInetAddress());
 				
 				//Obtaining Client's stream to send messages 

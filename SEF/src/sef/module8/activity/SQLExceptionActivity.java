@@ -17,15 +17,22 @@ public class SQLExceptionActivity {
 			//The following code would not compile unless it's put inside a try catch
 			//1 - put it in a try block and handle ClassNotFoundException
 			
-			
+			try{
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection cn = DriverManager.getConnection(url, user, pass);
 			System.out.println("Connection successfully established! \n");
 			
 			cn.close();
-			
+			}
+			catch(ClassNotFoundException c)
+			{
+				System.out.println("The driver class is not found");
+			}
 			//2 - You also need to catch SQLException for it to compile
-			
+			catch(SQLException s)
+			{
+				System.out.println("There is an SQLException. Please check the connection parameters.");
+			}
 	
 	}
 

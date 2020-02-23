@@ -15,10 +15,11 @@ public class ConsoleToFileSample {
 			
 			
 			//1 - Instantiate br of BufferedReader class which can read from keyboard
-			
+			isr = new InputStreamReader(System.in);
+			br = new BufferedReader(isr);
 			
 			//2 - Instantiate an object of FileOutputStream class to write to .\\src\\io\\temp.txt 
-			
+			fos = new FileOutputStream(".\\src\\sef\\module11\\sample\\temp2.txt");
 			
 			String s;//String to hold keyboard input
 			

@@ -1,5 +1,5 @@
 package sef.module10.sample;
-// Complete Code
+//Complete Code
 public class ThreadPriority extends Thread{
 	
 		  ThreadPriority(String s){
@@ -9,8 +9,7 @@ public class ThreadPriority extends Thread{
 		  for(int i=0;i<10;i++){
 		  
 		  int p=Thread.currentThread().getPriority();
-		  System.out.println("Thread Name  :"+Thread.currentThread().getName());
-		  System.out.println("Thread Priority  :"+ p);
+		  System.out.println("Thread Name  :"+Thread.currentThread().getName()+" and Thread Priority  :"+ p);
 		  }
 		  }
 		}

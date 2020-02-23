@@ -1,6 +1,6 @@
 package sef.module17.activity;
-// Complete Code
-class Employee {
+//Complete Code
+public class Employee {
 
 	String id;
 	String firstName;

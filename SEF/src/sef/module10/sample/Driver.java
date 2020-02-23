@@ -1,5 +1,5 @@
 package sef.module10.sample;
-// Complete Code
+//Complete Code
 public class Driver implements Runnable{
 	
 	private Passenger passenger;
@@ -9,6 +9,7 @@ public class Driver implements Runnable{
 		this.passenger = passenger;
 		System.out.println("Driver has a passenger!");
 	}
+	
 
 	public void run(){
 		

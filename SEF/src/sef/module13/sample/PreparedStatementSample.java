@@ -1,5 +1,5 @@
 package sef.module13.sample;
-//Needs to be completed
+// Needs to be completed
 import java.sql.*;
 
 //	This class demonstrates the use of PreparedStatements
@@ -16,13 +16,13 @@ public class PreparedStatementSample {
 			System.out.println("Connection successfully established!");
 			
 			//1 - Create a PreparedStatement with a query "select * from employee where firstname = ?" 
-			PreparedStatement pStmt = ;
+			PreparedStatement pStmt = cn.prepareStatement("select * from employee where firstname = ? ");
 			
 			//	Change parameter to any keyword desired, if a record
 			// 	matches the query then it will be displayed
 			
 			//2 - Search for John's record
-			pStmt.setString(); //Remember that the data in tables is case sensitive. 
+			pStmt.setString(1,"John"); //Remember that the data in tables is case sensitive. 
 			
 			ResultSet rs = pStmt.executeQuery();
 						

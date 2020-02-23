@@ -4,7 +4,7 @@ public class SetterGetterSample{
 
 	public static void main(String arg[]){
 		
-		//With exposed impelmentation, an object can have values passed to it
+		//With exposed implementation, an object can have values passed to it
 		//that may be contrary to it's design
 		
 		PersonSampleOne p1 = new PersonSampleOne();

@@ -32,5 +32,8 @@ public class CastingSample {
 		System.out.println(longVar);
 		
 		
+				
+		
+		
 	}
 }

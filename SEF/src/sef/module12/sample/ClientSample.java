@@ -9,11 +9,11 @@ import java.net.UnknownHostException;
 public class ClientSample {
 
 	public static void main(String arg[]){
-		Socket socket = null;
+		
 		
 		try {
 			//1 - Instantiate Socket Object and pass Server's IP address and port number
-			
+			Socket socket = new Socket("localhost", 9999);
 			
 			//Obtaining InputStream to be able to read messages sent by Server
 			BufferedReader in = new BufferedReader(

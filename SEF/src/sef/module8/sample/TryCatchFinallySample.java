@@ -1,5 +1,5 @@
 package sef.module8.sample;
-// Needs to be completed
+//Needs to be completed
 public class TryCatchFinallySample {
 
 	//The following String variable is declared at class level. It'd automatically be initialized to null.
@@ -7,7 +7,8 @@ public class TryCatchFinallySample {
 	
 	public static void main(String[] args) {
 		//1 - Create an instance of TryCatchFinallySample and call catchMeIfYouCan()
-		
+		TryCatchFinallySample obj = new TryCatchFinallySample();
+		obj.catchMeIfYouCan();
 	}
 	
 	public void catchMeIfYouCan()
@@ -23,6 +24,14 @@ public class TryCatchFinallySample {
 		
 		//Lets see how do we handle this
 		//2 - put the above print statement inside a try catch block 
+		try
+		{
+			System.out.println(str.toUpperCase());
+		}
+		catch(NullPointerException e)
+		{
+			System.out.println("A variable is not initialized");
+		}
 		
 		
 		

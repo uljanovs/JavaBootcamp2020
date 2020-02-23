@@ -1,8 +1,9 @@
 package sef.module8.sample;
-// Needs to be completed
+//Needs to be completed
 public class ErrorSample {
 	
-	//This is an example of an error which cannot be handled programmatically 
+	//This is an example of an error which cannot be handled programatically 
+	
 	public static void main(String arg[]){
 		infinity();
 	}
@@ -12,9 +13,9 @@ public class ErrorSample {
 	//At one point in time, JVM would give up and show StackOverflowError
 	public static void infinity(){
 		//1 - Print a message
-	
+		System.out.println("Infinity!");
 		
 		//2 - Call infinity()
-	
+		infinity();
 	}
 }

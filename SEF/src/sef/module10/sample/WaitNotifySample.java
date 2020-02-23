@@ -1,5 +1,5 @@
 package sef.module10.sample;
-// Complete Code
+//Complete Code
 public class WaitNotifySample {
 
 	public static void main(String arg[]){

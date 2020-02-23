@@ -9,11 +9,11 @@ public class Sync implements Runnable{
 		  display();
 		  }
 		  
-		  public void display(){
+		  public synchronized void display(){
 			//1 - create a for loop which runs from 0-4 
-			  
+			  for(int i=0;i<=4;i++)
 			//2 - print the name of the thread along with the array elements
-		  
+		  System.out.println(Thread.currentThread().getName()+msg[i]);
 		  try{
 		  Thread.sleep(1000);
 		  }catch(Exception e){

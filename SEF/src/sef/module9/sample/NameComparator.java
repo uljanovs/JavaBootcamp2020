@@ -1,5 +1,5 @@
 package sef.module9.sample;
-// Complete Code
+//Needs to be completed
 import java.util.Comparator;
 
 class NameComparator implements Comparator{

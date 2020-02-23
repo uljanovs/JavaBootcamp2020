@@ -3,7 +3,7 @@ package sef.module7.sample;
 public class General {
 
 	//Use interfaces instead of actual classes.  This way your code does not get
-	//locked down to any specific implementation of an interface. erface
+	//locked down to any specific implementation of an interface. 
 
 	private Strategy myStrategy;
 	private String name;

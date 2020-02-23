@@ -1,6 +1,7 @@
 package sef.module11.sample;
+//Complete Code
 import java.util.*;
-// Complete Code
+
 public class ScannerInputSample
 {
 	public static void main(String a[])

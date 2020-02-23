@@ -1,5 +1,5 @@
 package sef.module13.sample;
-//Needs to be completed
+// Needs to be completed
 import java.sql.*;
 
 public class ConnectionSample {
@@ -14,10 +14,10 @@ public class ConnectionSample {
 			String pass = "abcd1234";
 			
 			//1 - Load the driver
-			
+			Class.forName("com.mysql.jdbc.Driver");
 			
 			//2 - Obtain a connection using DriverManager class
-			Connection cn = ;
+			Connection cn = DriverManager.getConnection(url, user, pass);
 			System.out.println("Connection successfully established! \n");
 			
 			//Closing the connection

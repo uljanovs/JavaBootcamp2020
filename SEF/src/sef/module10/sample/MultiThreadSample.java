@@ -1,5 +1,5 @@
 package sef.module10.sample;
-// Complete Code
+//Complete Code
 public class MultiThreadSample {
 	//even though it seems that every thread is executing one loop at a time in this
 	//example but if you see the sequence of name you will notice that some doesn't follow
