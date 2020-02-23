@@ -8,9 +8,9 @@
 3) In IDEA - Run -> Edit configuration -> Defaults -> Aplications -> In section 'Before launch' delete 'Build' and add Build, no error check 
 
 # Git commands
-1) in GitBash - git checkout -b [your_name]  (git checkout -b konstantin_pletenev)
+1) in GitBash - git checkout -b [your_name]  (git checkout -b aleksandrs_uljanovs)
 2) git push --set-upstream origin [your_name]
-3) in GitBash - git clone https://github.com/[name_of_your_git_user]/JavaBootcamp.git
+3) in GitBash - git clone https://github.com/[name_of_your_git_user]/JavaBootcamp2020.git
 4) git pull - get last version
 5) git commit -m "[name]"  - save local changes 
 6) git push - push changes to git server
