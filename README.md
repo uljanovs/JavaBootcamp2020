@@ -16,4 +16,4 @@
 6) git push - push changes to git server
 
 # Slides
-https://github.com/konstantin-pletenev-ext/JavaBootcamp/tree/master/Presentations
+https://github.com/uljanovs/JavaBootcamp2020/tree/master/Presentations
