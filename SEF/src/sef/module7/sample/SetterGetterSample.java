@@ -12,6 +12,6 @@ public class SetterGetterSample{
 		p1.age=-1000;
 		
 		//Will not allow improper fields to be set by throwing an exception
-		PersonSampleTwo p2 = new PersonSampleTwo("John Doe", -10);
+		PersonSampleTwo p2 = new PersonSampleTwo("John Doe", 10);
 	}
 }

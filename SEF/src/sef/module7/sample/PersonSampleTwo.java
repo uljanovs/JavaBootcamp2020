@@ -14,6 +14,7 @@ public class PersonSampleTwo {
 		if(name == null){
 			throw new IllegalArgumentException("Name cannot be null!");
 		}
+		else {System.out.println("name success!");}
 		this.name = name;
 	}
 	
@@ -29,6 +30,7 @@ public class PersonSampleTwo {
 		if(age < 0){
 			throw new IllegalArgumentException("Age cannot be negative!");
 		}
+		else {System.out.println("age success!");}
 		this.age = age;
 	}
 }
